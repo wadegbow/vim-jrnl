@@ -5,9 +5,11 @@ file detection and syntax highlighting for .jrnl files
 
 ## usage
 
-just add the location of your jrnl's yaml config to your `.vimrc`:
+just set the location of your jrnl's yaml config in your `.vimrc`:
 
-```let g:jrnl_config_location = '~/.config/jrnl/jrnl.yaml'```  
+```vimscript
+let g:jrnl_config_location = '~/.config/jrnl/jrnl.yaml'
+```  
 
 
 ### todo
